@@ -135,7 +135,7 @@ names(epl_table) = c("Rank", "Team", "GP", "W", "L", "D", "GF", "GA", "GD", "Poi
 
 names(otable) = c("Manager", "Points")
 
-setwd("~/projects/ep-pool/epl-pool")
+setwd("/Users/caseythayer/projects/epl-pool/epl-pool")
 
 write.csv(epl_table, "epl_table.csv")
 write.csv(otable, "owner_table.csv")
